@@ -1,7 +1,7 @@
 {
     "name": "click",
     "version": "0.1.0",
-    "homepage": "http://dom2849.github.io/clickCounter",
+    "homepage": "https://dom2849.github.io/clickCounter/",
     "private": true,
     "dependencies": {
         "gh-pages": "^2.0.1",
