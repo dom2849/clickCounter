@@ -1,0 +1,57 @@
+
+.button{
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+@media(any-hover: hover){
+    .button:hover{
+        opacity: .8;
+    }
+}
+
+.button:active{
+    opacity: 1;
+}
+
+.clicker{
+    display: flex;
+    justify-content: center;
+}
+
+.clicker__wrapper{
+    background: #f4f4f4;
+}
+
+.clicker__value{
+    text-align: center;
+    padding: 2rem 7rem;
+    font-size: 3rem;
+}
+
+.clicker__buttons{
+    display: flex;
+}
+
+.clicker__buttons > * {
+    font-size: 1.5rem;
+    flex: 1;
+    padding: 2rem;
+    color: #fff;
+}
+
+.clicker__plus{
+    background: #00a000;
+}
+
+.clicker__minus{
+    background: #ff3232;
+}
+
+.clicker__reset{
+    background: #696969;
+}
